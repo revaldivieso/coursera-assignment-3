@@ -86,7 +86,7 @@ p {
 
 h2 {
     text-align: center;
-    padding: 50px 0px 50px 0px;
+  
 }
 
 h3 {
@@ -111,11 +111,16 @@ h3 {
     p {
         color: black;
     }
+    h2 {
+        text-align: center;
+        padding: 50px 0px 50px 0px;
+    }
 }
 
 /* Medium devices only */
 @media (min-width: 992px) and (max-width: 1199px){
     .jumbotron {
+        padding: 0;
         box-shadow: 0 0 50px #3f0c1f;
         border: 2px solid #3f0c1f;
     }
@@ -127,6 +132,7 @@ h3 {
 /* Small devices only */
 @media (min-width: 768px) and (max-width: 991px) {
     .jumbotron {
+        padding: 0;
         box-shadow: 0 0 50px #3f0c1f;
         border: 2px solid #3f0c1f;
     }
